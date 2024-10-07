@@ -1,0 +1,46 @@
+* {
+  background-color: rgb(198, 113, 234);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden; 
+}
+
+
+
+.gifpage4 img {
+  margin-bottom: 4rem;
+  border-radius: 2rem;
+}
+
+.title4 p {
+  color: rgb(59, 7, 82);
+  font-size: 2rem;
+  font-weight: 600;
+  animation: customAni 1s ease 0s infinite normal none;
+}
+
+
+/* Keyframes */
+@keyframes customAni {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }

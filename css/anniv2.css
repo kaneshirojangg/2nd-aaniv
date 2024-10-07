@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(198, 113, 234);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gifpage2 img {
+    margin: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    animation: slideInLeft 2s ease 0s 1 normal none;
+}
+
+.letter2 {
+    animation: slideInLeft 3.5s ease 0s 1 normal none;
+}
+
+.letter2 p {
+    border: 5px rgb(67, 15, 89) solid;
+    border-radius: 4rem;
+    background-color: wheat;
+    padding: 2.5rem;
+    color: rgb(46, 3, 64);
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 20px auto;
+    width: 45%;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btns-end2 {
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns-end2 {
+    animation: slideInLeft 4s ease 0s 1 normal none;
+}
+
+.btns-end2 a {
+    color: rgb(46, 3, 64);
+    background-color: wheat;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem;
+    padding: 0.5rem;
+    border: 3px rgb(67, 15, 89) solid;
+    border-radius: 4rem;
+    padding: 0 3rem 0 3rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    
+}
+
+.btns-end2 a:hover {
+    color: wheat;
+    background-color: rgb(46, 3, 64);
+}
+
+/* Keyframes*/
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+
+}
